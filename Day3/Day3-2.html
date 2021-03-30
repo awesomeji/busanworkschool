@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <body>
+    <section>
+      <article>
+        <table border="1" style="width: 50%">
+          <tr>
+            <th>name</th>
+            <td>score</td>
+          </tr>
+          <tr>
+            <th>g</th>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th>k</th>
+            <td>80</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <br />
+    <section>
+      <article>
+        <table border="1" style="width: 50%">
+          <caption>
+            행통합 테이블
+          </caption>
+          <tr>
+            <th>1행</th>
+            <td>1행 2열</td>
+          </tr>
+          <tr>
+            <th rowspan="2">2행</th>
+            <td>2행 2열</td>
+          </tr>
+          <tr>
+            <td>3행 2열</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <br />
+    <section>
+      <article>
+        <table border="1" style="width: 50%">
+          <caption>
+            열 통합 테이블
+          </caption>
+          <tr>
+            <th>1행</th>
+            <td colspan="2">1행 2열</td>
+          </tr>
+          <tr>
+            <th>g</th>
+            <td>30</td>
+            <td>30</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <br />
+    <section>
+      <article>
+        <table border="1" style="width: 50%">
+          <tr>
+            <th>name</th>
+            <td>score</td>
+            <td>score</td>
+            <td rowspan="4">score</td>
+          </tr>
+          <tr>
+            <th>name</th>
+            <td rowspan="3" colspan="2"> score </td>
+          </tr>
+          <tr>
+            <th>name</th>
+          </tr>
+          <tr>
+            <th>name</th>
+          </tr>
+          <tr>
+            <th colspan="2">name</th>
+            <td colspan="2">score</td>
+          </tr>
+          <tr>
+            <th colspan="2">name</th>
+            <td colspan="2">score</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+  </body>
+</html>
