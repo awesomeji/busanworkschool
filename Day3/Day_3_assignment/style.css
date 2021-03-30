@@ -1,0 +1,50 @@
+html { font-size: 62.5%; } 
+body { font-size: 5.4rem; } 
+h1   { font-size: 6.4rem; 
+
+text-align: center;} 
+
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.music{
+  
+    background: rgb(211, 21, 125, 0.747);
+
+
+}
+
+.video{
+    
+    background: rgb(134, 216, 161);
+  
+}
+
+
+.picture{
+    
+    background: rgb(71, 92, 216);
+  
+}
+
+
+.table{
+   
+    background: rgb(204, 202, 78);
+    
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+
+.videodiv{
+    display: flex;
+    justify-content: center;
+}
