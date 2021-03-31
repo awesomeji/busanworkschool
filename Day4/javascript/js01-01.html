@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript 1일차</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <button id="btnOK">확인</button>
+
+  <h1>h1 태그를 사용하여 글자를 표시</h1>
+  <div id="div01" style="width: 100px; height: 100px; border: 2px solid black"></div>
+
+  <script>
+    $("#btnOK").on("click", function() {
+      alert("버튼을 클릭하였습니다.");
+      $("h1").css("color", "blue");
+      $("#div01").css("width", "300px");
+    })
+  </script>
+</body>
+</html>
