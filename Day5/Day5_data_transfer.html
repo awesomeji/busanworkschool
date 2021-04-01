@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" >
+    <title>Get</title>
+</head>
+<body>
+<h2>Get 방식으로 데이터 전송</h2>    
+<form action="01_getdata.jsp" method="get">
+    <!-- 톰캣서버기준 상대경로로 위치를 지정해야 하기때문에 톰캣서버에서 
+    지정해놓은 폴더의 하위로 작업물을 배치하자 비밀번호랑 포스트방식 구동해보자 -->
+    <!-- 그리고 주소는 localhost:8080(이것도 톰캣에서 지정해 둠)/파일명 으로 접속 -->
+    <p>이름 : <input type="text" name="name"></p>
+    <p>전공 : <input type="text" name="major"></p>
+    <p></p>
+    <input type="submit" value="전송">
+    <input type="reset" value="재전송">
+</form>
+</body>
+</html>
